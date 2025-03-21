@@ -1,0 +1,553 @@
+ body{
+   background-color: var(--body);
+
+}
+
+
+
+:root{
+    --backgroundColor: linear-gradient(150deg,  #fdfcfb 5%, #cda68a 80% );
+    --backgroundImage: url(./pic1.jpg);
+    --dayButton:yellow;
+    --circle:white;
+    /* --screen:linear-gradient(135deg, #fdfcfb 0%, #6e5f53 100%);; */
+    --number:#17181a;
+    --but1:rosybrown;
+    --but2:#ead9ce;
+    --text:black;
+    --numbers:white;
+    --shaddow:0px 0px 5px #b09784;
+    --but3:#e8e3db;
+    --sign:#f2dcc6;
+    --body:#c7b7a3;
+    /* */
+    /*  */
+    /* */
+    /* */
+}
+
+
+
+
+
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: poppins-medium;
+    src: url(./Poppins/Poppins-Medium.ttf);
+}
+
+body{
+margin: 0%;
+padding: 0%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+       .main{
+        /* background: var(--backgroundColor); */
+        background: var(--backgroundColor);
+        height: 570px;
+        width: 330px;
+        border-radius: 20px;
+       
+    }
+
+  
+
+
+    .icon{
+        background-color: transparent;
+        height: 7%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+       
+
+    }
+
+
+   .dayButton{
+    background-color: var(--dayButton);
+    width: 90px;
+    height:35px;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    display: flex;
+    justify-content: start;
+    border-radius: 50px
+    
+   }
+
+
+
+   .circle{
+    background-color: var(--circle);
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    position: relative;
+    border: none;
+    background-image:var(--backgroundImage);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
+
+
+
+
+
+
+
+    #text{
+        width: 97%;
+        height: 165px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: var(--text);
+        font-size: 45px;
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+    }
+
+    .screen{
+        /* background:var(--screen); */
+        width: 100%;
+        height: 30%;
+        
+    }
+
+
+    .number{
+        /* background-color:var(--number); */
+        width: 100%;
+        height: 63%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    }
+
+
+                          /* number1 */
+                      
+    .no1{
+        background-color: transparent;
+        width:100%;
+        height: 17%;
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+
+    #butAc{
+      width: 17%;
+      height:95% ;
+      background-color:var(--but3);
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size: large;
+      color:var(--but1) ;
+      box-shadow:var(--shaddow);
+    }
+
+    #butDel{
+        width: 17%;
+      height:95% ;
+        background-color:var(--but3);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family: poppins-medium;
+        font-size: large;
+        color:var(--but1);
+        box-shadow:var(--shaddow);
+    }
+
+    #butPer{
+        width: 17%;
+        height:95% ;
+        background-color:var(--but3);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:20px;
+        color:var(--but1);
+        box-shadow:var(--shaddow);
+    }
+
+    #butDev{
+        width: 17%;
+      height:95% ;
+        background-color:#ff9500;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:27px;
+        box-shadow:var(--shaddow);
+        color: var(--sign);
+    }
+
+
+
+                        /*number2  */
+
+
+    .no2{
+        background-color: transparent;
+        width: 100%;
+        height: 17%;
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #but7{
+        width: 17%;
+        height:95% ;
+        background-color:var(--but2) ;
+        color: var(--numbers);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:25px;
+        box-shadow:var(--shaddow);
+    }
+
+
+    #but8{
+        width: 17%;
+      height:95% ;
+      background-color:var(--but2);
+      color:  var(--numbers);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:25px;
+        box-shadow:var(--shaddow);
+    }
+
+
+    #but9{
+        width: 17%;
+        height:95% ;
+        background-color:var(--but2);
+        color:  var(--numbers);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:25px;
+        box-shadow:var(--shaddow);
+    }
+
+    #butMul{
+        width: 17%;
+      height:95% ;
+        background-color:#ff9500;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:27px;
+        box-shadow:var(--shaddow);
+        color: var(--sign);
+    }
+
+
+
+
+
+
+
+
+                     /* nnumber 3 */
+
+    .no3{
+        background-color: transparent;
+        width: 100%;
+        height: 17%;
+          display: flex;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+
+    #but4{
+        width: 17%;
+        height:95% ;
+        background-color: var(--but2);
+        color:  var(--numbers);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:25px;
+        box-shadow:var(--shaddow);
+       
+    }
+
+
+    #but5{
+        width: 17%;
+      height:95% ;
+      background-color: var(--but2);
+      color:  var(--numbers);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:25px;
+        box-shadow:var(--shaddow);
+    }
+
+
+    #but6{
+        width: 17%;
+        height:95% ;
+        background-color: var(--but2);
+        color:  var(--numbers);
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:25px;
+        box-shadow:var(--shaddow);
+    }
+
+    #butMinus{
+        width: 17%;
+      height:95% ;
+        background-color:#ff9500;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-family:  poppins-medium;
+        font-size:27px;
+        box-shadow:var(--shaddow);
+        color: var(--sign);
+    }
+
+
+
+
+
+
+
+
+                             /* number4 */
+
+
+    .no4{
+        background-color:transparent;
+        width: 100%;
+        height: 17%;
+        display: flex;
+      flex-direction:row ;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+
+
+  #but1{
+      width: 17%;
+      height:95% ;
+      background-color: var(--but2);
+        color:  var(--numbers);
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size:25px;
+      box-shadow:var(--shaddow);
+  }
+
+
+  #but2{
+      width: 17%;
+    height:95% ;
+    background-color: var(--but2);
+    color:  var(--numbers);
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size:25px;
+      box-shadow:var(--shaddow);
+  }
+
+
+  #but3{
+      width: 17%;
+      height:95% ;
+      background-color: var(--but2);
+      color:  var(--numbers);
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size:25px;
+      box-shadow:var(--shaddow);
+  }
+
+  #butPlus{
+      width: 17%;
+    height:95% ;
+      background-color:#ff9500;
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size:27px;
+      box-shadow:var(--shaddow);
+      color: var(--sign);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         /* number5 */
+
+    .no5{
+        background-color: transparent;
+        width: 100%;
+        height: 17%;
+         display: flex;
+      flex-direction:row ;
+      /* justify-content: space-evenly; */
+      align-items: center; 
+      
+  }
+
+  .divNo1{
+    background-color:transparent ;
+    height: 90%;
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .divNo2{
+    background-color:transparent;
+    height: 100%;
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+
+  #but0{
+      width: 70%;
+      height:100% ;
+      background-color: var(--but2);
+      color:  var(--numbers);
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size:25px;
+      box-shadow:var(--shaddow);
+  }
+
+
+  #butDot{
+      width: 34%;
+    height:95% ;
+    background-color: var(--but2);
+    color:  var(--numbers);
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size:25px;
+      box-shadow:var(--shaddow);
+  }
+
+
+  #butEqual{
+      width: 34%;
+      height:95% ;
+      background-color:#ff9500;
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-family:  poppins-medium;
+      font-size:25px;
+      box-shadow:var(--shaddow);
+      color: var(--sign);
+  }
+
+
+
+
+  .div{
+    background-color: transparent;
+    width: 100%;
+    height: 10px;
+    border-radius: 20px;
+  }
+
+
+
+
+
+
+
+
+    @media screen and (max-width:425px) {
+        .main{
+            width: 280px;
+            height: 500px;
+        }
+        
+    }
+
+    @media screen and (max-width:375px) {
+        .main{
+            width: 250px;
+            height: 430px;
+        }
+        
+    }

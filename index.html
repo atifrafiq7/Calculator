@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="circle" onclick="mode()" class="dayButton">
+   <div  class="circle" id="btn"></div>
+      
+    </div>
+    
+<div class="main">
+
+    <div class="icon">
+       
+    </div>
+
+
+
+    <div class="screen"><input type="text"  name=""  placeholder="0" id="text"></div>
+
+
+    <div class="number">
+        <div class="no1">
+            <button id="butAc" onclick="ac('')">AC</button>
+            <button id="butDel" onclick="backspace()">DEL</button>
+            <button id="butPer"  onclick="operand('%')">%</button>
+            <button id="butDev" onclick="operand('/')">÷</button>
+        </div>
+
+
+        <div class="no2">
+           <button id="but7" onclick="press('7')">7</button>
+           <button id="but8" onclick="press('8')">8</button>
+           <button id="but9" onclick="press('9')">9</button>
+           <button id="butMul" onclick="operand('*')">×</button>
+        </div>
+
+
+
+        <div class="no3">
+            <button id="but4"onclick="press('4')">4</button>
+            <button id="but5"onclick="press('5')">5</button>
+            <button id="but6"onclick="press('6')">6</button>
+            <button id="butMinus"onclick="operand('-')">-</button>
+        </div>
+
+
+
+
+
+        <div class="no4">
+            <button id="but1"onclick="press('1')">1</button>
+            <button id="but2"onclick="press('2')">2</button>
+            <button id="but3"onclick="press('3')">3</button>
+            <button id="butPlus"onclick="operand('+')">+</button>
+        </div>
+
+
+
+
+
+        <div class="no5">
+
+          <div class="divNo1">
+            <button id="but0"onclick="press('0')">0</button>
+          </div>
+
+          <div class="divNo2">
+            <button id="butDot"onclick="operand('.')">.</button>
+            <button id="butEqual"onclick="equation()">=</button>
+          </div>
+
+        </div>
+
+        <div class="div"></div>
+    </div>
+
+
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+ -->
